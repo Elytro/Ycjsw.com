@@ -1,1 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>盐城教师网,教师资格证考试,中小学教师招聘考试网</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Meta tags -->
+    <meta name="keywords" content="盐城教师招聘,盐城教师招聘考试,盐城教师招聘信息,盐城教师招聘网,盐城教师编制考试,盐城教师招聘考试公告,教师考试笔试,盐城教师招聘公告,盐城教师招聘考试信息,盐城教师编制招聘,盐城特岗教师招聘,盐城事业单位招聘">
+    <meta name="description" content="盐城教师网(www.ycjsw.com)为您提供盐城市教师资格网/教师招聘考试,中小学教师资格证考试,特岗教师考试公告,报名时间,报名入口,面试信息,试题资料等教师招聘真题,考试公告,语文,英语,数学,幼儿,音乐,美术,体育,信息技术等历年真题下载等教师招聘考试信息。包含历年真题,上岸备考资料,模拟真题押题卷。">
+    <!-- Open Graph -->
+    <meta property="og:title" content="盐城教师网,教师资格证考试,中小学教师招聘考试网">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.ycjsw.com/">
+    <meta property="og:image" content="https://apps.qtimg.com/assets/brand/b30954dfb841be5c.png">
+    <meta property="og:description" content="盐城教师网(www.ycjsw.com)为您提供盐城市教师资格网/教师招聘考试,中小学教师资格证考试,特岗教师考试公告,报名时间,报名入口,面试信息,试题资料等教师招聘真题,考试公告,语文,英语,数学,幼儿,音乐,美术,体育,信息技术等历年真题下载等教师招聘考试信息。包含历年真题,上岸备考资料,模拟真题押题卷。">
+    <meta property="og:site_name" content="盐城教师网,教师资格证考试,中小学教师招聘考试网">
+    <link href="https://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://apps.alyjs.com/traffic/d69bdf5bb30954dfb841be5ce9f11cbe.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
+        html, body {
+            height: 100%;
+            background-color: #fff;
+            font-family: "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .login-wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* 主体内容区 */
+        .login-body {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 15px;
+        }
+
+        .login-panel {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        /* 顶部品牌区域 */
+        .brand-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .brand-logo {
+            width: 72px;
+            height: 72px;
+            line-height: 72px;
+            border-radius: 50%;
+            background-color: #4A90D9;
+            color: #fff;
+            font-size: 32px;
+            display: inline-block;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 12px rgba(74, 144, 217, 0.25);
+        }
+
+        .brand-title {
+            font-size: 22px;
+            font-weight: 400;
+            color: #333;
+            letter-spacing: 4px;
+        }
+
+        .brand-subtitle {
+            font-size: 13px;
+            color: #999;
+            margin-top: 6px;
+            letter-spacing: 1px;
+        }
+
+        /* 表单样式 */
+        .form-group {
+            position: relative;
+            margin-bottom: 22px;
+        }
+
+        .form-group .input-icon {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 40px;
+            height: 44px;
+            line-height: 44px;
+            text-align: center;
+            color: #bbb;
+            font-size: 15px;
+            z-index: 2;
+        }
+
+        .form-control {
+            height: 44px;
+            padding: 6px 12px 6px 40px;
+            font-size: 14px;
+            border: none;
+            border-bottom: 1px solid #e0e0e0;
+            border-radius: 0;
+            box-shadow: none;
+            background: transparent;
+            transition: border-color 0.2s;
+        }
+
+        .form-control:focus {
+            border-bottom-color: #4A90D9;
+            box-shadow: none;
+            outline: none;
+        }
+
+        .btn-login {
+            display: block;
+            width: 100%;
+            height: 44px;
+            margin-top: 32px;
+            font-size: 15px;
+            letter-spacing: 4px;
+            border: none;
+            border-radius: 22px;
+            background-color: #4A90D9;
+            color: #fff;
+            transition: background-color 0.2s, box-shadow 0.2s;
+        }
+
+        .btn-login:hover,
+        .btn-login:focus {
+            background-color: #3A7BC8;
+            color: #fff;
+            box-shadow: 0 4px 15px rgba(74, 144, 217, 0.35);
+            outline: none;
+        }
+
+        .btn-login:active {
+            background-color: #346DAE;
+            box-shadow: none;
+        }
+
+        /* 辅助链接 */
+        .extra-links {
+            text-align: center;
+            margin-top: 24px;
+        }
+
+        .extra-links a {
+            color: #999;
+            font-size: 13px;
+            text-decoration: none;
+            margin: 0 12px;
+            transition: color 0.2s;
+        }
+
+        .extra-links a:hover {
+            color: #4A90D9;
+        }
+
+        .extra-links .divider {
+            color: #ddd;
+        }
+
+        /* 底部 ICP */
+        .footer-icp {
+            text-align: center;
+            padding: 20px 15px;
+            color: #bbb;
+            font-size: 12px;
+        }
+
+        .footer-icp a {
+            color: #bbb;
+            text-decoration: none;
+        }
+
+        .footer-icp a:hover {
+            color: #888;
+            text-decoration: none;
+        }
+
+        /* 响应式 */
+        @media (max-width: 480px) {
+            .login-panel {
+                max-width: 100%;
+                padding: 0 10px;
+            }
+            .brand-section {
+                margin-bottom: 30px;
+            }
+            .brand-logo {
+                width: 60px;
+                height: 60px;
+                line-height: 60px;
+                font-size: 26px;
+            }
+            .brand-title {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="login-wrapper">
+
+    <div class="login-body">
+        <div class="login-panel">
+            <!-- 品牌区 -->
+            <div class="brand-section">
+                <div class="brand-logo">
+                    <i class="fa fa-graduation-cap"></i>
+                </div>
+                <h2 class="brand-title">盐城教师网</h2>
+                <p class="brand-subtitle">盐城市教师 企业微信群 管理系统</p>
+            </div>
+
+            <!-- 登录表单 -->
+            <form>
+                <div class="form-group">
+                    <span class="input-icon"><i class="fa fa-user-o"></i></span>
+                    <input type="text" class="form-control" id="username" placeholder="企微编号" autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <span class="input-icon"><i class="fa fa-lock"></i></span>
+                    <input type="password" class="form-control" id="password" placeholder="请输入密码" autocomplete="off">
+                </div>
+
+                <button type="submit" class="btn btn-login">登 录</button>
+
+                <!--<div class="extra-links">
+                    <a href="javascript:;">忘记密码</a>
+                    <span class="divider">|</span>
+                    <a href="javascript:;">注册账号</a>
+                </div>-->
+            </form>
+
+        </div>
+    </div>
+
+    <!-- 底部 ICP 备案号 -->
+    <div class="footer-icp">
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">鲁ICP备2025189343号-9</a>
+    </div>
+
+</div>
+
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>
